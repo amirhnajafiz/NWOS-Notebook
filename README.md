@@ -1,2 +1,3 @@
 # Amir-Najafi-WP
-My personal website created with Wordpress.
+
+Creating my personal website with WordPress. 
