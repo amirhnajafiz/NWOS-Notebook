@@ -28,4 +28,10 @@ class UserController extends Controller
                 'notify' => 'success'
             ]);
     }
+
+    // TODO: Create user
+    // TODO: Delete user
+    // TODO: Create notify
+    // TODO: Assign notify to a user
+    // TODO: Remove the notify
 }

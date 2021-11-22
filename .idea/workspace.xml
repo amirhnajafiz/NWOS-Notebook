@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c17e41a-fd50-4079-b717-dd0ecf3f3af6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/application/app/Http/Controllers/API/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/database/migrations/2021_11_21_071227_create_notification_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/database/migrations/2021_11_21_071227_create_notification_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,10 +157,22 @@
       <updated>1636566434649</updated>
       <workItem from="1636566436725" duration="187000" />
       <workItem from="1637477759511" duration="1112000" />
+      <workItem from="1637569354478" duration="378000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
