@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\CreateUserRequest;
 use App\Jobs\NotifyUser;
 use App\Models\Notification;
 use App\Models\User;
@@ -19,10 +20,10 @@ class UserController extends Controller
     /**
      * Creating a user method.
      *
-     * @param Request $request
+     * @param CreateUserRequest $request
      * @return JsonResponse
      */
-    public function create_user(Request $request): JsonResponse
+    public function create_user(CreateUserRequest $request): JsonResponse
     {
         $user = User::query()
             ->create($request->all());
@@ -30,7 +31,8 @@ class UserController extends Controller
         return response()
             ->json([
                 'user' => $user->id,
-                'status' => 'Success'
+                'status' => 'Success',
+                'password' => $user->password,
             ]);
     }
 
