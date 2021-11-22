@@ -4,6 +4,7 @@ namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\CreateUserRequest;
+use App\Http\Requests\RemoveUserRequest;
 use App\Jobs\NotifyUser;
 use App\Models\Notification;
 use App\Models\User;
@@ -25,13 +26,14 @@ class UserController extends Controller
      */
     public function create_user(CreateUserRequest $request): JsonResponse
     {
+        $validated = $request->validated();
         $user = User::query()
-            ->create($request->all());
+            ->create($validated);
 
         return response()
             ->json([
                 'user' => $user->id,
-                'status' => 'Success',
+                'status' => 'successfully registered',
                 'password' => $user->password,
             ]);
     }
@@ -39,13 +41,15 @@ class UserController extends Controller
     /**
      * Method for removing a user.
      *
-     * @param $id
+     * @param RemoveUserRequest $request
      * @return JsonResponse
      */
-    public function remove_user($id): JsonResponse
+    public function remove_user(RemoveUserRequest $request): JsonResponse
     {
+        $validated = $request->validated();
+
         User::query()
-            ->findOrFail($id)
+            ->findOrFail($validated['id'])
             ->delete();
 
         return response()
