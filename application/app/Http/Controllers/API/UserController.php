@@ -10,7 +10,6 @@ use App\Jobs\NotifyUser;
 use App\Models\Notification;
 use App\Models\User;
 use Illuminate\Http\JsonResponse;
-use Illuminate\Http\Request;
 
 /**
  * Class UserController handles the user features.
