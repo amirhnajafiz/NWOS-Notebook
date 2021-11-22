@@ -34,7 +34,6 @@ class UserController extends Controller
             ->json([
                 'user' => $user->id,
                 'status' => 'successfully registered',
-                'password' => $user->password,
             ]);
     }
 
