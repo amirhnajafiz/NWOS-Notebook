@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\CallUserRequest;
 use App\Http\Requests\CreateUserRequest;
 use App\Http\Requests\RemoveUserRequest;
 use App\Jobs\NotifyUser;
@@ -61,18 +62,20 @@ class UserController extends Controller
     /**
      * This method creates a notification for a user.
      *
-     * @param Request $request
+     * @param CallUserRequest $request
      * @return JsonResponse
      */
-    private function call_user(Request $request): JsonResponse
+    private function call_user(CallUserRequest $request): JsonResponse
     {
-        $user = User::query()
-            ->firstOrFail($request->get('to_id'));
+        $validated = $request->validated();
 
-        unlink($request->get('to_id'));
+        $user = User::query()
+            ->firstOrFail($validated['to_id']);
+
+        unlink($validated['to_id']);
 
         $notification = Notification::query()
-            ->create($request->all());
+            ->create($validated);
 
         NotifyUser::dispatch(['user' => $user, 'notification' => $notification])
             ->delay(now()->addMinutes(5));
