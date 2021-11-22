@@ -67,7 +67,9 @@ class UserController extends Controller
     private function call_user(Request $request): JsonResponse
     {
         $user = User::query()
-            ->firstOrFail($request->get('user_id'));
+            ->firstOrFail($request->get('to_id'));
+
+        unlink($request->get('to_id'));
 
         $notification = Notification::query()
             ->create($request->all());

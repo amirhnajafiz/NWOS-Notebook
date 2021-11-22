@@ -2,6 +2,7 @@
 
 namespace App\Jobs;
 
+use App\Mail\Notify;
 use App\Models\Notification;
 use App\Models\User;
 use Illuminate\Bus\Queueable;
@@ -10,6 +11,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
+use Illuminate\Support\Facades\Mail;
 
 /**
  * Class NotifyUser, each notify is for a user that needs to be handled in a job.
@@ -41,6 +43,9 @@ class NotifyUser implements ShouldQueue
      */
     public function handle()
     {
+        Mail::to($this->user)
+            ->send(new Notify($this->notification));
+
         $this->notification->delete();
     }
 }
