@@ -1,8 +1,8 @@
 # Laravel Message Broker
 
-Using Job and Queue to create a message broker with Laravel.
+Create a message broker and mail sender with Laravel using **Apache Kafka**, and **MailGun**.
 
-In this project we use Jobs to send email notifications by MailGun to our users.
+In this project we use Jobs and Queues to send email notifications by MailGun to our users.
 
 ## Features
 ### Back-end
@@ -10,6 +10,7 @@ In this project we use Jobs to send email notifications by MailGun to our users.
 - Restful API
 - MySQL database 
 - Job and Queue 
+- Apache Kafka Queue
 - MailGun connection
 
 ### Front-end
