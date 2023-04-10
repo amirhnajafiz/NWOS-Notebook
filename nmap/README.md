@@ -14,7 +14,7 @@ discover open ports and services, and detect vulnerabilities.
 Scans the list of devices up and running on a given subnet.
 
 ```sh
-nmap -sp 192.168.1.1/24
+nmap -sP 192.168.1.1/24
 ```
 
 ### scan a single host
