@@ -13,6 +13,13 @@ Note:
 
 > On modern Linux systems, the ```ip``` command has replaced ```ifconfig``` command.
 
+## Syntax
+
+```sh
+ifconfig [-v] [-a] [-s] [interface]
+ifconfig [-v] interface [aftype] options | address ...
+```
+
 ## Commands
 
 ### Display all interface
@@ -26,3 +33,7 @@ ifconfig -a
 ```sh
 sudo ifconfig en0 up
 ```
+
+## Resources
+
+- [computerhope.com](https://www.computerhope.com/unix/uifconfi.htm)
