@@ -37,3 +37,4 @@ sudo ifconfig en0 up
 ## Resources
 
 - [computerhope.com](https://www.computerhope.com/unix/uifconfi.htm)
+- [pawprint.net](https://www.pawprint.net/designresources/netmask-converter.php)
