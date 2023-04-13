@@ -8,3 +8,12 @@ IP address exists and can accept requests in computer network administration.
 Echo Request to a specified interface on the network and waiting for a reply.
 When a ```ping``` command is issued, a ```ping``` signal is sent to a specified address.
 When the target host receives the echo request, it responds by sending an echo reply packet.
+
+This approach serves two specific purposes:
+
+- verifying that the target host is available
+- determining round-trip time (RTT) or latency
+
+## Resources
+
+- [teachtarget.com](https://www.techtarget.com/searchnetworking/definition/ping)
