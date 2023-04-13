@@ -8,3 +8,5 @@ and network configuration command line applications.
 
 - [```ifconfig```](./ifconfig/README.md)
 - [```nmap```](./nmap/README.md)
+- [```ping```](./ping/README.md)
+- [```dig```](./dig/README.md)
