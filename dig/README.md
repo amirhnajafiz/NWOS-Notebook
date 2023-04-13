@@ -26,3 +26,17 @@ dig [server] [name] [type]
 - ```server``` The hostname or IP address the query is directed to
 - ```name``` The DNS (Domain Name Server) of the server to query
 - ```type``` The type of DNS record to retrieve. By default (or if left blank), dig uses the A record type
+
+## Example
+
+```sh
+dig internet.aut.ac.ir
+```
+
+```sh
+dig -x 185.211.88.124
+```
+
+## Resources
+
+- [phoenixnap.com](https://phoenixnap.com/kb/linux-dig-command-examples)
