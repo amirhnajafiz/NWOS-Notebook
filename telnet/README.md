@@ -25,3 +25,16 @@ sudo ufw allow 23/tcp
 ```sh
 sudo ufw reload
 ```
+
+## Syntax
+
+```sh
+telnet [options] [remote_server_address] [port]
+```
+
+The ```options``` and ```port``` parameters are optional.
+For ```remote_server_address```, telnet accepts symbolic and numeric addresses.
+
+## Resources
+
+- [phoenixnap.com](https://phoenixnap.com/kb/telnet-linux#:~:text=The%20telnet%20command%20(short%20for,remote%20systems%20using%20the%20CLI.)
