@@ -10,3 +10,4 @@ and network configuration command line applications.
 - [```nmap```](./nmap/README.md)
 - [```ping```](./ping/README.md)
 - [```dig```](./dig/README.md)
+- [```telnet```](./telnet/README.md)
