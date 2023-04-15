@@ -15,3 +15,4 @@ and network configuration command line applications.
 - [```ip```](./ip/README.md)
 - [```tcpdump```](./tcpdump/README.md)
 - [```iptables```](./iptables/README.md)
+- [```nslookup```](./nslookup/README.md)
