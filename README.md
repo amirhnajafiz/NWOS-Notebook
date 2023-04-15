@@ -12,3 +12,4 @@ and network configuration command line applications.
 - [```dig```](./dig/README.md)
 - [```telnet```](./telnet/README.md)
 - [```traceroute```](./traceroute/README.md)
+- [```ip```](./ip/README.md)
