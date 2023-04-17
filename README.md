@@ -1,5 +1,8 @@
 # Network Tools
 
+![](https://img.shields.io/badge/lang-shell-success)
+![](https://img.shields.io/badge/concept-network-red)
+
 In this repository I collect tutorials and examples of the tools that I use
 in computer networks. These tools consists of network monitoring, network administration,
 and network configuration command line applications.
