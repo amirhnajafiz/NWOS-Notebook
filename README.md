@@ -6,6 +6,8 @@ and network configuration command line applications.
 
 ## Tools
 
+### Network
+
 - [```ifconfig```](./ifconfig/README.md)
 - [```nmap```](./nmap/README.md)
 - [```ping```](./ping/README.md)
@@ -18,5 +20,8 @@ and network configuration command line applications.
 - [```nslookup```](./nslookup/README.md)
 - [```hostname```](./hostname/README.md)
 - [```arp```](./arp/README.md)
+
+### System
+
 - [```getmac```](./getmac/README.md)
 - [```uname```](./uname/README.md)
