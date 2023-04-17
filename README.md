@@ -18,3 +18,6 @@ and network configuration command line applications.
 - [```nslookup```](./nslookup/README.md)
 - [```hostname```](./hostname/README.md)
 - [```arp```](./arp/README.md)
+- [```getmac```](./getmac/README.md)
+- [```netstat```](./netstat/README.md)
+- [```systeminfo```](./systeminfo/README.md)
