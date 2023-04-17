@@ -19,3 +19,4 @@ and network configuration command line applications.
 - [```hostname```](./hostname/README.md)
 - [```arp```](./arp/README.md)
 - [```getmac```](./getmac/README.md)
+- [```uname```](./uname/README.md)
