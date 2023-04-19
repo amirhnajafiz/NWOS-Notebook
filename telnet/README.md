@@ -37,4 +37,4 @@ For ```remote_server_address```, telnet accepts symbolic and numeric addresses.
 
 ## Resources
 
-- [phoenixnap.com](https://phoenixnap.com/kb/telnet-linux#:~:text=The%20telnet%20command%20(short%20for,remote%20systems%20using%20the%20CLI.)
+- [phoenixnap.com](https://phoenixnap.com/kb/telnet-linux#:~:text=The%20telnet%20command%20(short%20for,remote%20systems%20using%20the%20CLI.))
