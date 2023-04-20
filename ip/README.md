@@ -51,4 +51,4 @@ ip neigh show
 
 ## Resources
 
--[phoenixnap.com](https://phoenixnap.com/kb/linux-ip-command-examples)
+- [phoenixnap.com](https://phoenixnap.com/kb/linux-ip-command-examples)
