@@ -1,13 +1,18 @@
-# Network Tools
+# :computer: Networks and Systems Tools
 
 ![](https://img.shields.io/badge/lang-shell-success)
 ![](https://img.shields.io/badge/concept-network-red)
 
 In this repository I collect tutorials and examples of the tools that I use
-in computer networks. These tools consists of network monitoring, network administration,
-and network configuration command line applications.
+in computer networks and operating systems.
+They are essential command lines that every ```network engineer```, ```devops engineer```, and ```sysops engineer```
+should be familiar with.
+These tools consists of network monitoring, network administration, network configuration,
+operating system management, and operating system configuration command line applications.
 
-## Tools
+## 	:toolbox: Tools
+
+List of content:
 
 ### Network
 
@@ -24,7 +29,7 @@ and network configuration command line applications.
 - [```hostname```](./hostname/README.md)
 - [```arp```](./arp/README.md)
 
-### System
+### Operating System
 
 - [```getmac```](./getmac/README.md)
 - [```uname```](./uname/README.md)
