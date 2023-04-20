@@ -1,4 +1,4 @@
-# :computer: Networks and Systems Tools
+# :computer: Networks and Operating Systems Tools
 
 ![](https://img.shields.io/badge/lang-shell-success)
 ![](https://img.shields.io/badge/concept-network-red)
