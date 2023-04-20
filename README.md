@@ -2,6 +2,7 @@
 
 ![](https://img.shields.io/badge/lang-shell-success)
 ![](https://img.shields.io/badge/concept-network-red)
+![](https://img.shields.io/badge/concept-os-blueviolet)
 
 In this repository I collect tutorials and examples of the tools that I use
 in computer networks and operating systems.
