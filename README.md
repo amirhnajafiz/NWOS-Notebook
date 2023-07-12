@@ -29,6 +29,7 @@ List of content:
 - [```nslookup```](./nslookup/README.md)
 - [```hostname```](./hostname/README.md)
 - [```arp```](./arp/README.md)
+- [```protocols```](./protocols/README.md)
 
 ### Operating System
 
